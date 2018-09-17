@@ -1,0 +1,23 @@
+{
+  "name": "dharma-db",
+  "version": "0.0.1",
+  "description": "Micro modulo para conectar ao banco de dados MySQL e executar tarefas simples",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SubHeaven/dharma-db.git"
+  },
+  "author": "SubHeaven <paulo@projetodharma.com> (http://projetodharma.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SubHeaven/dharma-db/issues"
+  },
+  "homepage": "https://github.com/SubHeaven/dharma-db#readme",
+  "dependencies": {
+    "dharma-config": "0.0.1",
+    "mysql": "^2.16.0"
+  }
+}
