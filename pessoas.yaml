@@ -1,0 +1,68 @@
+name: pessoas
+model: pessoa
+label: Pessoas
+descricao: Tabela com a cadastro de pessoas
+fields:
+  - name: nome
+    label: Nome
+    type: string
+    size: 60
+    precision: 0
+    scale: 0
+    description: ''
+  - name: tipo
+    label: Tipo
+    type: integer
+    size: 0
+    precision: 0
+    scale: 0
+    description: ''
+  - name: cpj_cnpj
+    label: CPF/CNPJ
+    type: string
+    size: 20
+    precision: 0
+    scale: 0
+    description: ''
+  - name: endereco
+    label: Endereço
+    type: string
+    size: 100
+    precision: 0
+    scale: 0
+    description: ''
+  - name: numero
+    label: Número
+    type: string
+    size: 10
+    precision: 0
+    scale: 0
+    description: ''
+  - name: complemento
+    label: Complemento
+    type: string
+    size: 100
+    precision: 0
+    scale: 0
+    description: ''
+  - name: bairro
+    label: Bairro
+    type: integer
+    size: 0
+    precision: 0
+    scale: 0
+    description: ''
+  - name: telefone
+    label: Telefone
+    type: string
+    size: 12
+    precision: 0
+    scale: 0
+    description: ''
+  - name: email
+    label: Email
+    type: string
+    size: 60
+    precision: 0
+    scale: 0
+    description: ''
